@@ -8,6 +8,3 @@ class Config(object):
         self.dbname = "news"
         self.db = psycopg2.connect(database=self.dbname)
         self.cursor = self.db.cursor()
-
-    def get_db_cursor(self):
-        return self.cursor
