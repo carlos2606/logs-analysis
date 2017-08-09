@@ -2,7 +2,8 @@ import psycopg2
 
 
 class Config(object):
-    """docstring for Config"""
+    """Base class that defines the connection to the database
+    """
     def __init__(self):
         super(Config, self).__init__()
         self.dbname = "news"
