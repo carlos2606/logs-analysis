@@ -5,6 +5,12 @@ to build reports.
 
 ### Prerequisites
 
+Create the database from the newsdata.sql file provided and load the data into PostgreSQL with the following command:
+
+```
+psql -d news -f newsdata.sql
+```
+
 Before running the application, create the following views in your PostgreSQL database:
 
 ```
